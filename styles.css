@@ -1,0 +1,22 @@
+
+/* Selección con tag */
+h1 {
+    color: #025157;
+}
+body {
+    background-color: lightblue;
+}
+
+/* Selección con id */
+#debajo-titulo {
+    color: #46484c;
+}
+#promocional {
+    color: #8b8b8bcc;
+}
+
+
+/* Selección con clase */
+.paragraph {
+    font-style: normal;
+}
