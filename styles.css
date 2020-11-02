@@ -1,7 +1,12 @@
+:root {
+    --titulos--: #025157;
+    --parrafos--: #46484c;
+    --promocional--:  #8b8b8bcc;
+}
 
 /* Selección con tag */
 h1 {
-    color: #025157;
+    color: var(--titulos--);
 }
 body {
     background-color: lightblue;
@@ -9,10 +14,10 @@ body {
 
 /* Selección con id */
 #debajo-titulo {
-    color: #46484c;
+    color: var(--parrafos--);
 }
 #promocional {
-    color: #8b8b8bcc;
+    color: var(--promocional--);
 }
 
 
