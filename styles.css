@@ -6,12 +6,24 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --titulos--: #025157;
+    --parrafos--: #46484c;
+    --promocional--:  #8b8b8bcc;
+}
+
 /* Selección con tag */
 h1 {
-    color: #025157;
+    color: var(--titulos--);
 }
 body {
-    background-color: lightblue;
+/* *Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
 }
 img{
     padding: 5pt;
@@ -22,12 +34,11 @@ form{
 
 /* Selección con id */
 #debajo-titulo {
-    color: #46484c;
+    color: var(--parrafos--);
 }
 #promocional {
-    color: #8b8b8bcc;
+    color: var(--promocional--);
 }
-
 
 /* Selección con clase */
 .paragraph {
